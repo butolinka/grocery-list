@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1537081521012-e2f7747a84e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+}
+
+h1{
+    font-size: 90px;
+    background: linear-gradient(to left,  #F2A365, #30475E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Berkshire Swash', cursive;
+}
+.header, .container{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+
+.listHere{
+    padding: 10px;
+    font-size: 50px;
+    width: 39%;
+    border: none;
+    font-family: 'Sofia', cursive;
+    background-color: #E6D5B8;
+    color: #002F35;
+    width: 40%;
+}
+
+.btn{
+    background-color: #002F35;
+    color: #F7F2E7;
+    font-size: 30px;
+    font-family: 'Sofia', cursive;
+    width: 15%;
+}
+
+.toBuyAdded{
+    background-color: #F2A365;
+    list-style-type: none;
+    height:85px ;
+    width: 53%;
+    text-align: end;
+    color:#002F35 ;
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+}
+.toBuy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5%;
+}
+
+.toBuyComplited{
+    background-color: #004A2F;
+    opacity: 10%;
+    color: #ECECEC;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
+
+@media all and (max-width: 800px){
+    h1 {
+        font-size: 40px;
+    }
+    
+}
+
+@media all and (max-width: 500px){
+    h1 {
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .listHere{
+        font-size: 15px;
+    }
+    .toBuyAdded{
+        font-size: 15px;
+        height: 25px ;
+    }
+}
+@media all and (max-width: 300px){
+    h1 {
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .listHere{
+        font-size: 10px;
+    }
+    .toBuyAdded{
+        font-size: 10px;
+        height: 15px ;
+    }
+}
